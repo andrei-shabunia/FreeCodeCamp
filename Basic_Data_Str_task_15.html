@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task_15</title>
+    <script>
+        // Access Property Names with Bracket Notation
+
+        // DESCRIPTION:
+        /* This code will evaluate the value stored in the selectedFood variable and return the value of that key in the foods object,
+           or undefined if it is not present. Bracket notation is very useful because sometimes object properties are not known before runtime
+           or we need to access them in a more dynamic way.   */
+
+        let foods = {
+            apples: 25,
+            oranges: 32,
+            plums: 28,
+            bananas: 13,
+            grapes: 35,
+            strawberries: 27
+        };
+
+        function checkInventory(scannedItem) {
+            // Only change code below this line
+            return foods[scannedItem];
+            // Only change code above this line
+        }
+
+        console.log(checkInventory("apples"));    </script>
+</head>
+<body>
+
+</body>
+</html>
