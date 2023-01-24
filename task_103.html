@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task_103</title>
+    <script>
+        // REPLACE LOOPS USING RECURSION
+
+        // DESCRIPTION:
+        /* Write a recursive function, sum(arr, n), that returns the sum of the first n elements of an array arr. */
+
+        function sum(arr, n) {
+            if (n <= 0) {
+                return 0;
+            } else {
+                return sum(arr, n - 1) + arr[n - 1];
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
